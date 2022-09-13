@@ -11,6 +11,8 @@ public class SandboxApplication {
 
 
 		SpringApplication.run(SandboxApplication.class, args);
+
+        FizzBuzz.INSTANCE.run();
     }
 
 }
